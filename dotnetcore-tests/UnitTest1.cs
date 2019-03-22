@@ -21,7 +21,8 @@ namespace dotnetcore_tests
           Assert.AreEqual("Your application description page.", result.ViewData["Message"]);
         }
 
-        [TestMethod]
+
+        [TestMethod] 
         public void Contact()
         {
           // Arrange
